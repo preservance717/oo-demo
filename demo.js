@@ -12,3 +12,13 @@ class Animal {
 
 let animal = new Animal();
 animal.says('Hello');
+
+class Bird extends Animal {
+    constructor() {
+        super();
+        this.type = 'bird';
+    }
+}
+
+let bird = new Bird();
+bird.says('hello');
